@@ -35,3 +35,7 @@ h3 {
     padding-bottom: 50px;
     margin-left: 15%;
 }
+
+.navbar-collapse.in {
+    display: block !important;
+}
