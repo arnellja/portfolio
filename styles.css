@@ -61,13 +61,4 @@ h3 {
     .project-display {
         display: block;
     }
-    .text-placement-left {
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    
-    .text-placement-right {
-        margin-left: 0px;
-        margin-top: 0px;
-    }
 }
