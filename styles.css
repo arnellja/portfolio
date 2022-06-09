@@ -39,3 +39,35 @@ h3 {
 .navbar-collapse.in {
     display: block !important;
 }
+
+.project-display {
+    display: flex;
+    justify-content: center;
+}
+
+.text-placement-left {
+    text-align: left;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.text-placement-right {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-display {
+        display: block;
+    }
+    .text-placement-left {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    .text-placement-right {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
