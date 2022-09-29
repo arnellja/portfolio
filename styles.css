@@ -43,6 +43,8 @@ h3 {
 .project-display {
     display: flex;
     justify-content: center;
+    border: 3px solid white;
+    padding: 40px 40px;
 }
 
 .text-placement-left {
@@ -61,4 +63,9 @@ h3 {
     .project-display {
         display: block;
     }
+}
+
+.skill-box {
+    border: solid white 3px;
+    padding: 40px 40px;
 }
